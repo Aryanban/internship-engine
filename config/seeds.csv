@@ -1,0 +1,16 @@
+company,careers_url,ats,ats_token,region,primary_hook,trigger_event,trigger_url,priority,dsa_state,notes
+Cursor,https://jobs.ashbyhq.com/cursor,ashby,cursor,Global Remote,SEOForge,Released Background Agent & subagents,https://cursor.com/blog,1,likely_no_dsa,AI coding leader. Values deep MCP & agent tooling.
+Cognition,https://jobs.ashbyhq.com/cognition,ashby,cognition,Global Remote,SEOForge,Devin 2.0 & enterprise deployments,https://cognition.ai/blog,1,likely_no_dsa,High autonomy build rounds.
+Ema,https://jobs.lever.co/ema,lever,ema,Bangalore / Remote,SEOForge,Universal AI Employee multi-agent orchestration,https://ema.co,1,likely_no_dsa,Bangalore & US team building agentic workforces.
+Sarvam AI,https://jobs.lever.co/sarvam,lever,sarvam,Bangalore,SEOForge,Series A & sovereign voice model rollout,https://sarvam.ai,1,likely_no_dsa,Indian foundational AI lab.
+Luma AI,https://boards.greenhouse.io/lumaai,greenhouse,lumaai,Global Remote,PlotBook,Dream Machine video & 3D world models,https://lumalabs.ai,1,likely_no_dsa,High performance rendering + generative systems.
+Vercel,https://boards.greenhouse.io/vercel,greenhouse,vercel,Global Remote,PlotBook,v0 generative UI & Next.js 16 updates,https://vercel.com/blog,1,likely_no_dsa,Values Next.js, WebSockets, and spatial canvas.
+Postman,https://boards.greenhouse.io/postman,greenhouse,postman,Bangalore,SEOForge,Postman Agent and API platform extensions,https://postman.com,2,unknown,Strong Bangalore presence.
+Hasura,https://boards.greenhouse.io/hasura,greenhouse,hasura,Bangalore / Remote,PlotBook,GraphQL engine & prompt connectors,https://hasura.io,2,likely_no_dsa,High concurrency systems.
+Hub71 Ventures,https://jobs.ashbyhq.com/hub71,ashby,hub71,UAE & GCC,DholeraMap,Abu Dhabi tech ecosystem expansion,https://hub71.com,1,likely_no_dsa,Heavy fintech and proptech investment.
+PropertyFinder,https://jobs.lever.co/propertyfinder,lever,propertyfinder,UAE & GCC,DholeraMap,Dubai smart real estate mapping rollout,https://propertyfinder.ae,1,likely_no_dsa,Largest UAE proptech platform.
+NodeFlair,https://jobs.ashbyhq.com/nodeflair,ashby,nodeflair,Singapore / APAC,LeadForge,APAC tech compensation index launch,https://nodeflair.com,1,likely_no_dsa,Singapore developer ecosystem hub.
+Carousell,https://boards.greenhouse.io/carousell,greenhouse,carousell,Singapore / APAC,LeadForge,AI search and recommendation redesign,https://carousell.com,2,unknown,Major Singapore marketplace.
+LangChain,https://jobs.ashbyhq.com/langchain,ashby,langchain,Global Remote,SEOForge,LangGraph multi-agent persistence engine,https://langchain.com/blog,1,confirmed_no_dsa,Open source agent framework.
+Weights & Biases,https://boards.greenhouse.io/wandb,greenhouse,wandb,Global Remote,SEOForge,Weave LLM evals and monitoring platform,https://wandb.ai,1,likely_no_dsa,High value on automated testing and evals.
+Mercor,https://jobs.ashbyhq.com/mercor,ashby,mercor,Global Remote,LeadForge,Autonomous resume screening & interview evaluation,https://mercor.com,1,likely_no_dsa,Fast-shipping YC startup.

@@ -1,0 +1,29 @@
+# Environment & Secrets
+.env
+.env.*
+config/profile.yaml
+
+# Python cache & virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Databases & local data
+data/jobs.sqlite3
+data/*.sqlite3*
+data/eval/
+
+# Output artifacts
+output/resumes/*.pdf
+output/drafts/*.md
+!output/resumes/.gitkeep
+!output/drafts/.gitkeep
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/

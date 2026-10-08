@@ -1,0 +1,107 @@
+# Gate 1 Deterministic Screening Rules
+
+# Level screening
+level_include:
+  - "intern"
+  - "internship"
+  - "student"
+  - "entry level"
+  - "junior"
+  - "new grad"
+  - "apprentice"
+  - "fellow"
+
+level_exclude:
+  - "senior"
+  - "staff"
+  - "principal"
+  - "lead"
+  - "manager"
+  - "director"
+  - "vp"
+  - "head of"
+  - "3+ years"
+  - "4+ years"
+  - "5+ years"
+
+# Role screening
+roles_include:
+  - "ai engineer"
+  - "applied ai"
+  - "ai systems"
+  - "forward deployed"
+  - "product engineer"
+  - "full-stack"
+  - "fullstack"
+  - "software engineer"
+  - "software developer"
+  - "founding engineer"
+  - "llm"
+  - "agent"
+  - "mcp"
+
+roles_exclude:
+  - "research scientist"
+  - "phd"
+  - "data scientist"
+  - "machine learning researcher"
+  - "ml research"
+
+# Location reject triggers (Visa / residency blockers)
+location_reject_phrases:
+  - "must be located in the us"
+  - "us only"
+  - "united states only"
+  - "must reside in the united states"
+  - "must reside in us"
+  - "work authorization required"
+  - "authorized to work in the us"
+  - "eligible to work in the uk"
+  - "security clearance required"
+  - "us citizenship required"
+  - "eu citizenship required"
+
+# India Onsite / Hybrid Approved Cities
+india_onsite_cities:
+  - "bangalore"
+  - "bengaluru"
+  - "gurgaon"
+  - "gurugram"
+  - "noida"
+  - "delhi"
+  - "delhi ncr"
+  - "hyderabad"
+  - "pune"
+  - "mumbai"
+
+# Approved Global Hubs (Directly approved if remote / contractor)
+global_approved_hubs:
+  - "singapore"
+  - "dubai"
+  - "abu dhabi"
+  - "uae"
+  - "united arab emirates"
+  - "remote"
+  - "worldwide"
+  - "anywhere"
+
+# Timezone parameters
+timezone:
+  home: "Asia/Kolkata"
+  work_window_start_ist: "10:00"
+  work_window_end_ist: "20:00"
+  min_overlap_hours: 4.0
+
+# DSA Hard Rejections vs Soft Flags
+dsa_hard_reject:
+  - "leetcode"
+  - "competitive programming"
+  - "hackerrank"
+  - "codesignal"
+  - "codility"
+
+dsa_soft_flag:
+  - "online assessment"
+  - "coding round"
+  - "data structures and algorithms"
+  - "dsa round"

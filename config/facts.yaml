@@ -1,0 +1,138 @@
+# Canonical Fact Bank for Aryan Bansal
+# Every statement in a resume or cold email must reference a valid fact ID.
+# Claims older than 90 days must be re-verified.
+
+candidate:
+  name: "Aryan Bansal"
+  institution: "Indraprastha Institute of Information Technology, Delhi (IIIT-Delhi)"
+  degree: "B.Tech in Computer Science and Design (CSD)"
+  graduation_year: 2028
+  target_term: "Summer 2027"
+  timezone: "Asia/Kolkata"
+  location: "Delhi, India (GMT+5:30)"
+  portfolio_url: "https://www.webforge.me/"
+  github_url: "https://github.com/Aryanban"
+  linkedin_url: "https://www.linkedin.com/in/aryan-bansal-b29b69370/"
+
+facts:
+  # --- SEOForge (AI-MCP Systems & Tooling) ---
+  - id: "seoforge_mcp_server"
+    project: "SEOForge"
+    claim: "Architected an 18-tool Model Context Protocol (MCP) server enabling autonomous AI coding agents to perform deep DOM audits and site crawling."
+    tags: ["mcp", "agents", "llm", "tools", "typescript"]
+    proof_type: "repo"
+    proof_url: "https://github.com/Aryanban/seoforge"
+    allowed_contexts: ["ai-agents", "systems-realtime"]
+    last_verified: "2026-10-05"
+
+  - id: "seoforge_test_suite"
+    project: "SEOForge"
+    claim: "Authored 156 passing Vitest unit, integration, and E2E tests enforcing deterministic LLM agent behavior and strict robots.txt compliance."
+    tags: ["testing", "vitest", "quality", "ci"]
+    proof_type: "test_run"
+    proof_url: "https://github.com/Aryanban/seoforge"
+    allowed_contexts: ["ai-agents", "product-fullstack", "systems-realtime"]
+    last_verified: "2026-10-05"
+
+  - id: "seoforge_crawler_engine"
+    project: "SEOForge"
+    claim: "Built a high-concurrency BFS crawler with headless Playwright DOM auditing, PageRank link graph calculation, and Core Web Vitals telemetry."
+    tags: ["crawler", "concurrency", "playwright", "graph"]
+    proof_type: "repo"
+    proof_url: "https://github.com/Aryanban/seoforge"
+    allowed_contexts: ["ai-agents", "systems-realtime"]
+    last_verified: "2026-10-05"
+
+  # --- LeadForge (Scraping Infrastructure & Async Pipelines) ---
+  - id: "leadforge_route_interception"
+    project: "LeadForge"
+    claim: "Engineered high-throughput Playwright scrapers utilizing network route interception to block telemetry and media assets, delivering 3x–5x performance speedups."
+    tags: ["playwright", "scraping", "performance", "python"]
+    proof_type: "repo"
+    proof_url: "https://github.com/Aryanban/leadforge"
+    allowed_contexts: ["ai-agents", "systems-realtime"]
+    last_verified: "2026-10-05"
+
+  - id: "leadforge_smtp_verification"
+    project: "LeadForge"
+    claim: "Built direct DNS MX record resolution and asynchronous raw SMTP socket handshake pipelines to verify email deliverability with zero third-party API dependencies."
+    tags: ["networking", "async", "smtp", "fastapi"]
+    proof_type: "repo"
+    proof_url: "https://github.com/Aryanban/leadforge"
+    allowed_contexts: ["systems-realtime", "product-fullstack"]
+    last_verified: "2026-10-05"
+
+  - id: "leadforge_production_savings"
+    project: "LeadForge"
+    claim: "Replaced $100+/mo recurring SaaS subscriptions for outbound prospecting pipelines via distributed Redis queue and Dockerized worker nodes."
+    tags: ["redis", "docker", "cost-efficiency", "production"]
+    proof_type: "measured_metric"
+    proof_url: "https://github.com/Aryanban/leadforge"
+    allowed_contexts: ["ai-agents", "product-fullstack"]
+    last_verified: "2026-10-05"
+
+  # --- PlotBook (Concurrency, Real-time & Layout Blueprint Management) ---
+  - id: "plotbook_gpu_camera"
+    project: "PlotBook"
+    claim: "Digitized 362+ official DDA layout blueprints (~420MB vector data) into an imperative 60 FPS GPU-accelerated viewer with sub-5ms weighted spatial search."
+    tags: ["graphics", "canvas", "react", "nextjs", "concurrency"]
+    proof_type: "live_url"
+    proof_url: "https://plotbook.webforge.me/"
+    allowed_contexts: ["product-fullstack", "systems-realtime"]
+    last_verified: "2026-10-05"
+
+  - id: "plotbook_websocket_locking"
+    project: "PlotBook"
+    claim: "Implemented multi-user WebSocket live synchronization with optimistic UI rollbacks and database row-level locking to prevent inventory booking race conditions."
+    tags: ["websockets", "concurrency", "distributed-locking", "prisma"]
+    proof_type: "live_url"
+    proof_url: "https://plotbook.webforge.me/"
+    allowed_contexts: ["product-fullstack", "systems-realtime"]
+    last_verified: "2026-10-05"
+
+  - id: "plotbook_production_scale"
+    project: "PlotBook"
+    claim: "Deployed to active production across Rohini sectors, serving regional commercial property brokers with zero downtime."
+    tags: ["production", "scale", "fullstack"]
+    proof_type: "live_url"
+    proof_url: "https://plotbook.webforge.me/"
+    allowed_contexts: ["product-fullstack"]
+    last_verified: "2026-10-05"
+
+  # --- DholeraMap (GIS Spatial Intelligence & Web Workers) ---
+  - id: "dholeramap_canvas_engine"
+    project: "DholeraMap"
+    claim: "Architected interactive 60 FPS GIS mapping platform rendering 10,000+ parcels across Dholera SIR smart city investment zones with custom binary geometry."
+    tags: ["gis", "canvas", "spatial", "geometry"]
+    proof_type: "live_url"
+    proof_url: "https://dholeramap.com"
+    allowed_contexts: ["systems-realtime", "product-fullstack"]
+    last_verified: "2026-10-05"
+
+  - id: "dholeramap_web_workers_rtree"
+    project: "DholeraMap"
+    claim: "Offloaded spatial intersection indexing to background Web Workers using Flatbush R-Tree, maintaining a responsive UI thread during heavy polygon computation."
+    tags: ["web-workers", "concurrency", "r-tree", "algorithms"]
+    proof_type: "live_url"
+    proof_url: "https://dholeramap.com"
+    allowed_contexts: ["systems-realtime", "product-fullstack"]
+    last_verified: "2026-10-05"
+
+  - id: "dholeramap_dgdcr_compliance"
+    project: "DholeraMap"
+    claim: "Automated statutory DGDCR 2024 zoning calculations (FSI, ground coverage, road widths) and integrated CRM webhook lead intake."
+    tags: ["automation", "crm", "gis"]
+    proof_type: "live_url"
+    proof_url: "https://dholeramap.com"
+    allowed_contexts: ["product-fullstack"]
+    last_verified: "2026-10-05"
+
+  # --- Skills & Core Fundamentals ---
+  - id: "ai_engineering_discipline"
+    project: "Core Discipline"
+    claim: "Builds with AI using automated test suites as guardrails, native Model Context Protocol (MCP) tooling, and strict verification before deployment."
+    tags: ["ai-first", "methodology", "evals"]
+    proof_type: "repo"
+    proof_url: "https://github.com/Aryanban"
+    allowed_contexts: ["ai-agents", "product-fullstack", "systems-realtime"]
+    last_verified: "2026-10-05"

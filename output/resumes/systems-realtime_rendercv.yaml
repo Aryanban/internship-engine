@@ -1,0 +1,74 @@
+cv:
+  name: Aryan Bansal
+  location: Delhi, India (GMT+5:30)
+  email: aryan24120@iiitd.ac.in
+  phone: +91 9741471391
+  website: https://www.webforge.me/
+  social_networks:
+  - network: GitHub
+    username: Aryanban
+  - network: LinkedIn
+    username: aryan-bansal-b29b69370
+  sections:
+    education:
+    - institution: Indraprastha Institute of Information Technology, Delhi (IIIT-Delhi)
+      area: B.Tech in Computer Science and Design (CSD)
+      degree: B.Tech
+      start_date: 2024-08
+      end_date: 2028-05
+      highlights:
+      - 'Relevant Coursework: Data Structures & Algorithms, Systems Architecture,
+        Computer Graphics, Database Systems.'
+    projects:
+    - name: DholeraMap
+      highlights:
+      - Architected interactive 60 FPS GIS mapping platform rendering 10,000+ parcels
+        across Dholera SIR smart city investment zones with custom binary geometry.
+      - Offloaded spatial intersection indexing to background Web Workers using Flatbush
+        R-Tree, maintaining a responsive UI thread during heavy polygon computation.
+      summary: Commercial 60 FPS GIS engine with Web Workers Flatbush R-Tree
+      link: https://dholeramap.com
+    - name: PlotBook
+      highlights:
+      - Digitized 362+ official DDA layout blueprints (~420MB vector data) into an
+        imperative 60 FPS GPU-accelerated viewer with sub-5ms weighted spatial search.
+      - Implemented multi-user WebSocket live synchronization with optimistic UI rollbacks
+        and database row-level locking to prevent inventory booking race conditions.
+      summary: Imperative 60 FPS GPU canvas camera, WebSockets & 362+ DDA blueprints
+      link: https://plotbook.webforge.me/
+    - name: SEOForge
+      highlights:
+      - Built a high-concurrency BFS crawler with headless Playwright DOM auditing,
+        PageRank link graph calculation, and Core Web Vitals telemetry.
+      summary: 18-tool MCP server for AI coding agents with 156 passing tests
+      link: https://github.com/Aryanban/seoforge
+    - name: LeadForge
+      highlights:
+      - "Engineered high-throughput Playwright scrapers utilizing network route interception\
+        \ to block telemetry and media assets, delivering 3x\u20135x performance speedups."
+      - Built direct DNS MX record resolution and asynchronous raw SMTP socket handshake
+        pipelines to verify email deliverability with zero third-party API dependencies.
+      summary: High-throughput Playwright scraping suite & direct DNS MX verification
+      link: https://github.com/Aryanban/leadforge
+    skills:
+    - label: Languages
+      details: TypeScript, Python, SQL, HTML/CSS
+    - label: AI & Agent Tooling
+      details: Model Context Protocol (MCP), LLM Pipelines, Vitest, Playwright, Evals
+    - label: Frontend & Spatial
+      details: React, Next.js, Canvas 2D/WebGL, Flatbush R-Tree, Web Workers
+    - label: Backend & Systems
+      details: Node.js, FastAPI, WebSockets, Redis, SQLite, Prisma
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 0.45in
+    bottom_margin: 0.45in
+    left_margin: 0.45in
+    right_margin: 0.45in
+settings:
+  render_command:
+    dont_generate_html: true
+    dont_generate_markdown: true
+    dont_generate_png: true

@@ -1,0 +1,59 @@
+# Resume Archetype Configuration
+# Selects and orders facts from config/facts.yaml for each target domain.
+
+archetypes:
+  ai-agents:
+    lead_hook: "SEOForge & LeadForge"
+    focus_summary: "AI systems, Model Context Protocol (MCP) tooling, LLM evaluation pipelines, and high-velocity shipping."
+    project_order:
+      - "SEOForge"
+      - "LeadForge"
+      - "PlotBook"
+      - "DholeraMap"
+    fact_ids:
+      - "seoforge_mcp_server"
+      - "seoforge_test_suite"
+      - "seoforge_crawler_engine"
+      - "leadforge_route_interception"
+      - "leadforge_production_savings"
+      - "plotbook_gpu_camera"
+      - "plotbook_websocket_locking"
+      - "dholeramap_canvas_engine"
+      - "ai_engineering_discipline"
+
+  product-fullstack:
+    lead_hook: "PlotBook & DholeraMap"
+    focus_summary: "Full-stack web applications, real-time concurrency, spatial Canvas rendering, and production customer utility."
+    project_order:
+      - "PlotBook"
+      - "DholeraMap"
+      - "SEOForge"
+      - "LeadForge"
+    fact_ids:
+      - "plotbook_gpu_camera"
+      - "plotbook_websocket_locking"
+      - "plotbook_production_scale"
+      - "dholeramap_canvas_engine"
+      - "dholeramap_web_workers_rtree"
+      - "dholeramap_dgdcr_compliance"
+      - "seoforge_test_suite"
+      - "leadforge_production_savings"
+      - "ai_engineering_discipline"
+
+  systems-realtime:
+    lead_hook: "DholeraMap & PlotBook"
+    focus_summary: "Performance optimization, Web Workers, binary geometry, distributed locking, and sub-5ms latency."
+    project_order:
+      - "DholeraMap"
+      - "PlotBook"
+      - "SEOForge"
+      - "LeadForge"
+    fact_ids:
+      - "dholeramap_canvas_engine"
+      - "dholeramap_web_workers_rtree"
+      - "plotbook_gpu_camera"
+      - "plotbook_websocket_locking"
+      - "seoforge_crawler_engine"
+      - "leadforge_route_interception"
+      - "leadforge_smtp_verification"
+      - "ai_engineering_discipline"

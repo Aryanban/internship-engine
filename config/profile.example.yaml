@@ -1,0 +1,14 @@
+# Example Profile Configuration (Copy to profile.yaml and customize)
+# NOTE: profile.yaml is strictly gitignored to keep personal PII/tokens safe.
+
+candidate:
+  name: "Your Name"
+  email: "you@example.com"
+  phone: "+91-XXXXXXXXXX"
+  institution: "Your University"
+  degree: "B.Tech in Computer Science"
+  graduation_year: 2028
+  location: "Delhi, India"
+  portfolio_url: "https://yourportfolio.me"
+  github_url: "https://github.com/yourhandle"
+  linkedin_url: "https://linkedin.com/in/yourhandle"
